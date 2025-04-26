@@ -1,13 +1,10 @@
 import './App.css';
-import ButtonEvent from './Button';
-import Mause from './DetectMause';
-import InstanceTag from './InstanceTag';
+import Todo from './components/todo';
 
 function App() {
   return (
     <div className="App">
-      {/* <button onClick={ButtonEvent}> ボタン</button> */}
-      <InstanceTag></InstanceTag>
+      <Todo></Todo>
     </div>
   );
 }
